@@ -76,7 +76,7 @@ private fun Item(title: String) {
 fun CustomActions() {
     LazyColumn {
         items(10) {
-            Item("Listing name $it")
+            Item("Listing title $it")
             Box(Modifier.height(1.dp).fillMaxWidth().background(Color.Gray))
         }
     }

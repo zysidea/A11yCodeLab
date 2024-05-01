@@ -149,7 +149,7 @@ fun Basic() {
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Box(Modifier.weight(1f)) {
-                    Text(text = "Book name")
+                    Text(text = "Listing title")
                 }
                 Checkbox(
                     checked = checked,
